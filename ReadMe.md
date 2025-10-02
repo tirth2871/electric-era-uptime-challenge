@@ -62,11 +62,17 @@ For each station:
 #### Steps
 
 1. Clone or copy the project
+
+```bash
+git clone https://github.com/tirth2871/electric-era-uptime-challenge.git
+```
+
 2. In project root, run:
 
 ```bash
 make
 ```
+This will compile the program and generate the binary uptime.
 
 3. To run the preloaded test cases, run:
 
