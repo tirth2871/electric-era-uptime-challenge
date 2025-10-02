@@ -66,10 +66,12 @@ For each station:
 
 ```bash
 make
+```
 
 3. To run the preloaded test cases, run:
 
 ```bash
 make test
+```
 
 4. You can add your custom test case in input_x.txt format and expected output in input_x.out to verify custom test cases.
