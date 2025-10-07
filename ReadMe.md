@@ -43,7 +43,7 @@ For each station:
 3. Compute:
 
 \[
-\text{uptime\%} = \left\lfloor \frac{\text{total uptime}}{\text{total reporting window}} \times 100 \right\rfloor
+\text{Uptime\%} = \left\lfloor \frac{\text{Total Uptime}}{\text{Total Reporting Window}} \times 100 \right\rfloor
 \]
 
 - Gaps in reports count as downtime.
@@ -74,10 +74,22 @@ make
 ```
 This will compile the program and generate the binary uptime.
 
-3. To run the preloaded test cases, run:
+### 5. Execution
+
+1. To run the preloaded test cases, run:
 
 ```bash
 make test
 ```
 
-4. You can add your custom test case in input_x.txt format and expected output in input_x.out to verify custom test cases.
+2. To run a custom test case apart from preloaded test cases, run:
+
+```bash
+./uptime "path to input.txt file"
+```
+
+Example:
+
+```bash
+./uptime tests/input_3.txt
+```
