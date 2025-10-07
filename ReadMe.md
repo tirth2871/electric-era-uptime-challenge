@@ -42,9 +42,7 @@ For each station:
 2. Merge **overlapping intervals** to avoid double-counting.
 3. Compute:
 
-\[
-\text{Uptime\%} = \left\lfloor \frac{\text{Total Uptime}}{\text{Total Reporting Window}} \times 100 \right\rfloor
-\]
+Uptime% = ⌊ (Total Uptime ÷ Total Reporting Window) × 100 ⌋
 
 - Gaps in reports count as downtime.
 - Rounds down to nearest integer.
